@@ -1,16 +1,21 @@
-# a_my_template
+# Flutter template
 
-A new Flutter project.
+This is my own template created to quickly start a project using `provider` as a state manager and `shared preferences` to store preferences on the device. Also, I included a `provider` for changing the application's theme, which I find essential for all applications.
 
-## Getting Started
+## How to use this Flutter template?
 
-This project is a starting point for a Flutter application.
+You just need to follow these 2 steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Replace the 'lib' folder of this template with the one of your project.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Install the following dependencies in your `pubspec.yaml` by running the commands below:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [shared_preferences](https://pub.dev/packages/shared_preferences)
+```bash
+flutter pub add shared_preferences
+```
+
+* [provider](https://pub.dev/packages/provider)
+```bash
+flutter pub add provider
+```
