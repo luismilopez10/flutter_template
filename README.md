@@ -6,7 +6,7 @@ This is my own template created to quickly start a project using `provider` as a
 
 You just need to follow these 2 steps:
 
-1. Replace the 'lib' folder of this template with the one of your project.
+1. Replace your project's `lib` folder with the template's.
 
 2. Install the following dependencies in your `pubspec.yaml` by running the commands below:
 
