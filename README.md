@@ -1,6 +1,6 @@
 # Flutter template
 
-This is my own template created to quickly start a project using `provider` as a state manager and `shared preferences` to store preferences on the device. Also, I included a `provider` for changing the application's theme, which I find essential for all applications.
+This is my own template created to quickly start a project using `provider` as a state manager and `shared preferences` to store preferences on the device. Also, I included a provider for changing the application's theme, which I find essential for all applications.
 
 ## How to use this Flutter template?
 
