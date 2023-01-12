@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('Home'),
         leading: IconButton(
-          icon: Icon(Preferences.isDarkmode == true
+          icon: Icon(Preferences.isDarkmode
             ? Icons.light_mode_outlined
             : Icons.dark_mode_outlined),
           onPressed: () {
