@@ -19,7 +19,7 @@
 			"",
 			"class ${1:Home}Screen extends StatelessWidget {",
 			"   ",
-			"  static const String routerHome = '${1:Home}';",
+			"  static const String router${1:Home} = '${1:Home}';",
 			"  ",
 			"  const ${1:Home}Screen({Key? key}) : super(key: key);",
 			"  ",
