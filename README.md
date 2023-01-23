@@ -1,6 +1,6 @@
 # Plantilla de Flutter
 
-Creé esta plantilla para tener una aplicación base usando `provider` como manejador de estado y `shared preferences` para almacenar las preferencias del usuario en el dispositivo. Además, incluí un provider para el cambio de tema de la aplicación, la cual considero esencial para todas las aplicaciones.
+Creé esta plantilla para tener una aplicación base usando `provider` como gestor de estado y `shared preferences` para almacenar las preferencias del usuario en el dispositivo. Además, incluí un provider para el cambio de tema de la aplicación, la cual considero esencial para todas las aplicaciones.
 
 ## Cómo usar esta plantilla de Flutter?
 
