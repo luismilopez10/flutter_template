@@ -18,7 +18,6 @@
 			"import 'package:flutter/material.dart';",
 			"",
 			"class ${1:Home}Screen extends StatelessWidget {",
-			"   ",
 			"  static const String routerName = '${1:Home}';",
 			"  ",
 			"  const ${1:Home}Screen({Key? key}) : super(key: key);",

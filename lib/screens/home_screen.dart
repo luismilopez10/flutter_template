@@ -5,7 +5,7 @@ import '../share_preferences/preferences.dart';
 import '../providers/theme_provider.dart';
 
 class HomeScreen extends StatefulWidget {
-  static const String routerHome = 'Home';
+  static const String routerName = 'Home';
 
   const HomeScreen({Key? key}) : super(key: key);
 
