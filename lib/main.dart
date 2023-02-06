@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'screens/screens.dart';
-import 'providers/theme_provider.dart';
+import 'providers/providers.dart';
 import 'share_preferences/preferences.dart';
 
 void main() async {
