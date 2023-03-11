@@ -4,18 +4,15 @@ import 'package:provider/provider.dart';
 import '../share_preferences/preferences.dart';
 import '../providers/theme_provider.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   static const String routerName = 'Home';
 
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
+    final themeProvider = Provider.of<ThemeProvider>(context);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
@@ -25,12 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
             : Icons.dark_mode_outlined),
           onPressed: () {
             Preferences.isDarkmode = !Preferences.isDarkmode;
-            final themeProvider = Provider.of<ThemeProvider>(context, listen: false);
-
             Preferences.isDarkmode
               ? themeProvider.setDarkmode()
               : themeProvider.setLightmode();
-            setState(() {});
           },
         ),
       ),
