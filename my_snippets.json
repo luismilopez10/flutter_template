@@ -20,7 +20,7 @@
 			"class ${1:Home}Screen extends StatelessWidget {",
 			"  static const String routerName = '${1:Home}';",
 			"  ",
-			"  const ${1:Home}Screen({Key? key}) : super(key: key);",
+			"  const ${1:Home}Screen({super.key});",
 			"  ",
 			"  @override",
 			"  Widget build(BuildContext context) {",
@@ -33,8 +33,51 @@
 			"      ),",
 			"    );",
 			"  }",
-			"}"			
+			"}"
 		],
 		"description": "Crea una pantalla con un Scaffold"
+	},
+	"A new Flutter Web Page with a Scaffold": {
+		"prefix": "fl-page",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class ${1:Home}Page extends StatelessWidget {",
+			"  static const String routerName = '/${1:Home}';",
+			"  ",
+			"  const ${1:Home}Page({super.key});",
+			"  ",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Scaffold(",
+			"      appBar: AppBar(",
+			"         title: const Text('${1:Home}'),",
+			"      ),",
+			"      body: const Center(",
+			"         child: Text('${1:Home}Page'),",
+			"      ),",
+			"    );",
+			"  }",
+			"}"
+		],
+		"description": "Crea una pantalla con un Scaffold"
+	},
+	"Dart Documentation": {
+		"prefix": "doc",
+		"body": [
+		  "/// ${1:Description}",
+		  "///",
+		  "/// Example:",
+		  "/// ```dart",
+		  "/// ${TM_SELECTED_TEXT}",
+		  "/// ```",
+		  "///",
+		  "/// Params:",
+		  "/// - ${2:param1}: ${3:Description}",
+		  "///",
+		  "/// Returns:",
+		  "/// - ${4:Return Description}",
+		],
+		"description": "Documentation comment"
 	},
 }
